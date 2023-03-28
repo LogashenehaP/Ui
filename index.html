@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./index1.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="./index.css" />
+    <script src="https://kit.fontawesome.com/43dcc20e7a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="search-box">
+            <input type="text" class="search-input" id="search-input" placeholder="Enter the term" />
+            <button class="search-button" id="search-button">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+        <ul type="square" id="results-container"></ul>
+    </div>
+    <script>
+        const resultsContainer = document.getElementById('results-container');
+
+    if(results.length!=0) {
+        for (let i = 0; i < results.length; i++) {
+            const result = results[i];
+
+            const link = document.createElement('li');
+            link.textContent = result.url;
+
+            const title = document.createElement('li');
+            title.textContent = result.title;
+
+            const resultContainer = document.createElement('div');
+            resultContainer.appendChild(link);
+            resultContainer.appendChild(title);
+
+            resultsContainer.appendChild(resultContainer);
+        }
+        }
+    </script>
+</body>
+
+</html>
