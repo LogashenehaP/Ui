@@ -16,29 +16,9 @@
                 <i class="fas fa-search"></i>
             </button>
         </div>
-        <ul type="square" id="results-container"></ul>
+        <ul type="none" id="results-container"></ul>
     </div>
-    <script>
-        const resultsContainer = document.getElementById('results-container');
-
-    if(results.length!=0) {
-        for (let i = 0; i < results.length; i++) {
-            const result = results[i];
-
-            const link = document.createElement('li');
-            link.textContent = result.url;
-
-            const title = document.createElement('li');
-            title.textContent = result.title;
-
-            const resultContainer = document.createElement('div');
-            resultContainer.appendChild(link);
-            resultContainer.appendChild(title);
-
-            resultsContainer.appendChild(resultContainer);
-        }
-        }
-    </script>
+    <script></script>
 </body>
 
 </html>

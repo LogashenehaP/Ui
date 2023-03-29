@@ -17,7 +17,87 @@ const jsonData = {
         _score: 1.0,
         _source: {
           title: 'First Title',
-          url: 'http://example.com/first',
+          url: 'http://example.com/',
+        },
+      },
+      {
+        _index: 'my_index',
+        _type: 'my_type',
+        _id: '1',
+        _score: 1.0,
+        _source: {
+          title: 'First Title',
+          url: 'http://example.com/',
+        },
+      },
+      {
+        _index: 'my_index',
+        _type: 'my_type',
+        _id: '1',
+        _score: 1.0,
+        _source: {
+          title: 'First Title',
+          url: 'http://example.com/',
+        },
+      },
+      {
+        _index: 'my_index',
+        _type: 'my_type',
+        _id: '1',
+        _score: 1.0,
+        _source: {
+          title: 'First Title',
+          url: 'http://example.com/',
+        },
+      },
+      {
+        _index: 'my_index',
+        _type: 'my_type',
+        _id: '1',
+        _score: 1.0,
+        _source: {
+          title: 'First Title',
+          url: 'http://example.com/',
+        },
+      },
+      {
+        _index: 'my_index',
+        _type: 'my_type',
+        _id: '1',
+        _score: 1.0,
+        _source: {
+          title: 'First Title',
+          url: 'http://example.com/',
+        },
+      },
+      {
+        _index: 'my_index',
+        _type: 'my_type',
+        _id: '1',
+        _score: 1.0,
+        _source: {
+          title: 'First Title',
+          url: 'http://example.com/',
+        },
+      },
+      {
+        _index: 'my_index',
+        _type: 'my_type',
+        _id: '1',
+        _score: 1.0,
+        _source: {
+          title: 'First Title',
+          url: 'http://example.com/',
+        },
+      },
+      {
+        _index: 'my_index',
+        _type: 'my_type',
+        _id: '1',
+        _score: 1.0,
+        _source: {
+          title: 'First Title',
+          url: 'http://example.com/',
         },
       },
       {
@@ -35,6 +115,7 @@ const jsonData = {
 };
 
 const results = [];
+
 const hits = jsonData.hits.hits;
 
 for (let i = 0; i < hits.length; i++) {
